@@ -1,4 +1,5 @@
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://github.com/tanyaMashamba01/ANDBAD-MD-V1
+     '/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 <p align="center">                                              𝚫𝚴𝐃𝚩𝚫𝐃-𝐌𝐃-𝐕1 
@@ -17,7 +18,7 @@
 
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.top4top.io/p_3236rxa990.jpg'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 #### SETUP 
@@ -32,7 +33,7 @@
 [`PAIRING CODE`](https://andbad-qr-k71b.onrender.com)
  
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.top4top.io/p_3236rxa990.jpg'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 #### DEPLOY TO HEROKU 

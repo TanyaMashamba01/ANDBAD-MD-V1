@@ -365,6 +365,66 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
           addGroupToOnlyAdminList(dest)
 
               break;
+          case 'broadcast':
+  const message = args.join(' ');
+
+  if (!message) {
+    repondre('Please provide a message to broadcast.');
+    break;
+  }
+
+  if (message.startsWith('--dm')) {
+    const dmMessage = message.replace('--dm', '').trim();
+
+    if (!dmMessage) {
+      repondre('Please provide a message to send with --dm option.');
+      break;
+    }
+
+    try {
+      await sendDirectMessagesToAllGroups(dmMessage);
+      repondre('Broadcast to individual members completed successfully.');
+    } catch (error) {
+      repondre(`Failed to send message: ${error.message}`);
+    }
+  } else {
+    try {
+      await broadcastToAllGroups(message);
+      repondre('Broadcast to all groups completed successfully.');
+    } catch (error) {
+      repondre(`Failed to broadcast message: ${error.message}`);
+    }
+  }
+  break;
+
+async function broadcastToAllGroups(message) {
+  try {
+    const groups = await getAllGroups();
+
+    for (const group of groups) {
+      await sendMessageToGroup(group, message);
+    }
+  } catch (error) {
+    throw new Error(`Error broadcasting to all groups: ${error.message}`);
+  }
+}
+
+async function sendDirectMessagesToAllGroups(message) {
+  try {
+    const groups = await getAllGroups();
+
+    for (const group of groups) {
+      const members = await getGroupMembers(group);
+
+      for (const member of members) {
+        await sendDirectMessage(member, message);
+      }
+    }
+  } catch (error) {
+    throw new Error(`Error sending direct messages to all members: ${error.message}`);
+  }
+}
+
               case 'del':
                     
   if (groupalreadyBan) {

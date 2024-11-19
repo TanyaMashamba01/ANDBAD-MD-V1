@@ -4,13 +4,13 @@
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/L4U2K76.jpeg",
   "repository":"https://github.com/tanyaMashamba01/ANDBAD-MD-V1",
-  "succes_url":"+",
+  "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"/",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":" ANDBAD MD",
+      "value":" Joshuamambo-MD",
       "required":false
 
     } ,
@@ -83,7 +83,7 @@
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255768318788"
+    "value": "263777756184"
   },
     "WARN_COUNT":
   {

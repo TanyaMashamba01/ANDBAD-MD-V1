@@ -41,16 +41,15 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│▸ *GROUP* 
 │❒⁠⁠⁠⁠│▸ *REPO*
 │❒⁠⁠⁠⁠╰──────────────
-│❒⁠⁠⁠⁠│▸ *CHANNEL* :  https://whatsapp.com/channel/0029VajQn6YF1YlPE0XgBC2m
-│❒⁠⁠⁠⁠│▸ *GROUP* : https://chat.whatsapp.com/DU79JfdnOI83ZFVAyD74Mo
-│❒⁠⁠⁠⁠│▸ *REPO* : https://github.com/Mrandbad/ANDBAD-MD-V1
-│❒⁠⁠⁠⁠│▸ *YTUBE* : https://www.youtube.com/@andbadtz
+│❒⁠⁠⁠⁠│▸ *CHANNEL* :  https://whatsapp.com/channel/0029VaraMtfFcowAKRdDdp1T
+│❒⁠⁠⁠⁠│▸ *GROUP* : https://chat.whatsapp.com/FCURRZJoRUd6Tuvf6DwUnZ
+│❒⁠⁠⁠⁠│▸ *YTUBE* : https://www.youtube.com/@joshuamambo1
 │❒⁠⁠⁠⁠╰──────────────
 ╰──────────────────\n
   `;
     
 let menuMsg = `
-     MADE EASY BY 𝚳𝚪 𝚫𝚴𝐃𝚩𝚫𝐃
+     MADE EASY BY 𝚳𝚪 Joshuamambo1 NetKing❤️‍🔥 
 
 ❒────────────────────❒`;
 

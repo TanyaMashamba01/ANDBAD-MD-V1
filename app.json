@@ -2,7 +2,7 @@
   "name":"ANDBAD MD",
   "description":"Deploy now your bot, ANDBAD was developed by MrAndbad himself.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/L4U2K76.jpeg",
+  "logo":"https://b.top4top.io/p_3291qwfqu0.jpg",
   "repository":"https://github.com/Mrandbad/ANDBAD-MD-V1",
   "succes_url":"/",
   "stack":"container",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"/",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,15 +35,15 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":" ANDBAD MD",
-      "required":false
+      "value":" Joshuamambo1 MD",
+      "required":true
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.imgur.com/s5PX2fI.mp4",
-      "required":false
+      "value":"https://imgur.com/a/8Blk9l0.mp4",
+      "required":true
        
      },
     "PUBLIC_MODE":
@@ -75,15 +75,15 @@
     {
     
     "desc": "Your Name",
-    "required": false,
-    "value": "𝚳𝚪 𝚫𝚴𝐃𝚩𝚫𝐃"
+    "required": true,
+    "value": "JoshKing01 MD"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "255783394967"
+    "value": "263716729222"
   },
     "WARN_COUNT":
   {
@@ -100,12 +100,12 @@
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
     "value":"",  
-    "required": false
+    "required": true
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
-    "required": false
+    "value": "yes",
+    "required": true
   }
   },
 
